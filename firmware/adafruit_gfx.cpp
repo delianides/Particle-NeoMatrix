@@ -32,7 +32,7 @@ POSSIBILITY OF SUCH DAMAGE.
 */
 
 #include "adafruit_gfx.h"
-#include "neomatrix/glcdfont.c"
+#include "glcdfont.cpp"
 #ifdef __AVR__
  #include <avr/pgmspace.h>
 #else
