@@ -31,11 +31,8 @@
 
 #include "neomatrix.h"
 #include "gamma.h"
-#ifdef __AVR__
- #include <avr/pgmspace.h>
-#else
- #define pgm_read_byte(addr) (*(const unsigned char *)(addr))
-#endif
+
+#define pgm_read_byte(addr) (*(const unsigned char *)(addr))
 
 // Constructor for single matrix:
 Adafruit_NeoMatrix::Adafruit_NeoMatrix(int w, int h, uint8_t pin,
