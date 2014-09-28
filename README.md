@@ -14,10 +14,9 @@ Caveats
 -------
 
 I would love to be able to just package the matrix library independently of the
-pixel library and the GFX library but there doesn't seem to be an easy way to do
+pixel and GFX libraries but there doesn't seem to be an easy way to do
 that. So for now, both the NeoPixel Library and The Adafruit GFX library are
-included in this repo. You only need to include this library and the other two
-are added as well. 
+included in this repo.
 
 Resouces
 --------
@@ -28,7 +27,7 @@ Resouces
 Contributions
 ------------
 
-All of them. I'll probably run them first to make sure but I can't image there's
+All of them. I'll probably compile them first to make sure but I can't image there's
 too much to break.
 
 License

@@ -32,7 +32,7 @@ POSSIBILITY OF SUCH DAMAGE.
 */
 
 #include "adafruit_gfx.h"
-#include "glcdfont46.c"
+#include "glcdfont.c"
 #ifdef __AVR__
  #include <avr/pgmspace.h>
 #else
