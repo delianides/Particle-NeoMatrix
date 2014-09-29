@@ -33,7 +33,7 @@
   --------------------------------------------------------------------*/
 
 #include "application.h"
-#include "neomatrix.h"
+#include "neomatrix/neomatrix.h"
 
 // IMPORTANT: Set pixel COUNT, PIN and TYPE
 #define PIXEL_COUNT 10
