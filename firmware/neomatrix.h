@@ -1,5 +1,6 @@
 /*--------------------------------------------------------------------
   This file is part of the Adafruit NeoMatrix library.
+  This has been ported to the Spark.
 
   NeoMatrix is free software: you can redistribute it and/or modify
   it under the terms of the GNU Lesser General Public License as
@@ -18,6 +19,7 @@
 #ifndef SPARK_NEOMATRIX_H
 #define SPARK_NEOMATRIX_H
 
+//Needed for Spark Core...the previous includes are for the web IDE.
 #include "application.h"
 #include "../Adafruit_GFX/Adafruit_GFX.h"
 #include "../neopixel/neopixel.h"
@@ -61,11 +63,13 @@ class Adafruit_NeoMatrix : public Adafruit_GFX, public Adafruit_NeoPixel {
  public:
 
   // Constructor for single matrix:
+  // The pixel type is set because you'll probably only be using the WS2812B
   Adafruit_NeoMatrix(int w, int h, uint8_t pin = 6,
     uint8_t matrixType = NEO_MATRIX_TOP + NEO_MATRIX_LEFT + NEO_MATRIX_ROWS,
     uint8_t ledType    = WS2812B);
 
   // Constructor for tiled matrices:
+  // The pixel type is set because you'll probably only be using the WS2812B
   Adafruit_NeoMatrix(uint8_t matrixW, uint8_t matrixH, uint8_t tX,
     uint8_t tY, uint8_t pin = 6,
     uint8_t matrixType = NEO_MATRIX_TOP + NEO_MATRIX_LEFT + NEO_MATRIX_ROWS +

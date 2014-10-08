@@ -27,6 +27,10 @@
   You should have received a copy of the GNU Lesser General Public
   License along with NeoMatrix.  If not, see
   <http://www.gnu.org/licenses/>.
+
+  --------------------------------------------------------------------------
+  The following is a port of the Adafruit NeoPixel Library for the Spark Core.
+  https://spark.io
   -------------------------------------------------------------------------*/
 
 #include "neomatrix.h"
