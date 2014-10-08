@@ -25,6 +25,7 @@
 
   Written by Phil Burgess / Paint Your Dragon for Adafruit Industries.
   Modified to work with Spark Core by Technobly.
+  Modified for use with Matrices by delianides.
   Contributions by PJRC and other members of the open source community.
 
   Adafruit invests time and resources providing this open source code,
@@ -35,8 +36,7 @@
 #include "application.h"
 #include "neomatrix/neomatrix.h"
 
-// IMPORTANT: Set pixel COUNT, PIN and TYPE
-#define PIXEL_COUNT 10
+// IMPORTANT: Set pixel PIN and TYPE
 #define PIXEL_PIN D2
 #define PIXEL_TYPE WS2812B
 
