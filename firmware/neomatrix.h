@@ -79,7 +79,10 @@ class Adafruit_NeoMatrix : public Adafruit_GFX, public Adafruit_NeoPixel {
   void
     drawPixel(int16_t x, int16_t y, uint16_t color),
     fillScreen(uint16_t color),
+    setPassThruColor(uint32_t c),
+    setPassThruColor(void),
     setRemapFunction(uint16_t (*fn)(uint16_t, uint16_t));
+
   static uint16_t
     Color(uint8_t r, uint8_t g, uint8_t b);
 
@@ -91,6 +94,9 @@ class Adafruit_NeoMatrix : public Adafruit_GFX, public Adafruit_NeoPixel {
     matrixWidth, matrixHeight, tilesX, tilesY;
   uint16_t
     (*remapFn)(uint16_t x, uint16_t y);
+
+  uint32_t passThruColor;
+  boolean  passThruFlag = false;
 
 };
 
