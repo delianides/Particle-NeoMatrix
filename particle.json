@@ -1,0 +1,8 @@
+{
+  "name": "neomatrix",
+  "author": "Adafruit, delianides",
+  "license": "MIT",
+  "version": "0.1.0",
+  "description": "An implementation of Adafruit's NeoPixel Matrix Library for the Spark Core",
+  "namespace": "Adafruit_NeoMatrix"
+}
