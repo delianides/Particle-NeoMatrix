@@ -21,8 +21,8 @@
 
 //Needed for Spark Core...the previous includes are for the web IDE.
 #include "application.h"
-#include "../Adafruit_GFX/Adafruit_GFX.h"
-#include "../neopixel/neopixel.h"
+#include "Adafruit_GFX.h"
+#include "neopixel.h"
 
 // Matrix layout information is passed in the 'matrixType' parameter for
 // each constructor (the parameter immediately following is the LED type
