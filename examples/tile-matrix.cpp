@@ -33,8 +33,8 @@
   from Adafruit!
   --------------------------------------------------------------------*/
 
-#include "application.h"
-#include "neomatrix/neomatrix.h"
+#include "Particle.h"
+#include "neomatrix.h"
 
 // IMPORTANT: Set pixel PIN and TYPE
 #define PIXEL_PIN D2
