@@ -19,8 +19,7 @@
 #ifndef SPARK_NEOMATRIX_H
 #define SPARK_NEOMATRIX_H
 
-//Needed for Spark Core...the previous includes are for the web IDE.
-#include "application.h"
+#include "Particle.h"
 #include "Adafruit_GFX.h"
 #include "neopixel.h"
 
