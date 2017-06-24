@@ -6,16 +6,22 @@ This is a port of Adafruit's NeoPixel Matrix [Library](https://github.com/adafru
 Installation
 -----------
 
-- You should be able to just add the library via the Web IDE and include
-  "neomatrix/neomatrix.h" (It should add it for you)
-- You can compile locally using the Spark CLI tool but you'll need to download
-  the libraries in resources section.
+- You should be able to just add the library via the Web IDE and include "neomatrix.h" (It should add it for you)
+- You can compile locally using the Particle CLI tool.
 
-Resources
+```bash
+$ particle compile photon neomatrix-project --saveTo firmware.bin
+$ particle flash --usb firmware.bin
+```
+
+Read the docs for more information with this method of updating the cores.
+
+Resources/Prior Art
 --------
 
-- [SparkCore-NeoPixel](https://github.com/technobly/SparkCore-NeoPixel)
+- [Particle-NeoPixel](https://github.com/technobly/Particle-NeoPixel)
 - [Adafruit_TFT](https://github.com/lbarrosoneto/Adafruit_TFT)
+- [Adafruit NeoMatrix Uberguide](https://learn.adafruit.com/adafruit-neopixel-uberguide/neomatrix-library)
 
 Contributions
 ------------
