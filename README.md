@@ -11,17 +11,6 @@ Installation
 - You can compile locally using the Spark CLI tool but you'll need to download
   the libraries in resources section.
 
-Caveats
--------
-
-<s>I would love to be able to just package the matrix library independently of the
-pixel and GFX libraries but there doesn't seem to be an easy way to do
-that. So for now, both the NeoPixel Library and The Adafruit GFX library are
-included in this repo.</s>
-
-You now just need to include the `neopixel` library and the `Adafruit_GFX`
-library in your project.
-
 Resources
 --------
 
